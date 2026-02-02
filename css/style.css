@@ -37,3 +37,12 @@
     overflow-wrap: break-word;
   }
 }
+
+@media screen and (max-width: 640px){
+  h1.primary-headline, .hero h1{
+    font-size: clamp(28px, 9vw, 40px);
+    line-height: 1.1;
+    margin-top: 0;
+  }
+  .hero{padding-top: 48px;}
+}
