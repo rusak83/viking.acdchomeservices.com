@@ -29,3 +29,11 @@
     box-sizing: border-box;
   }
 }
+
+@media screen and (max-width: 640px){
+  h1, h2, h3{
+    hyphens: none;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+}
